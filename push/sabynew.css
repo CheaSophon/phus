@@ -1,0 +1,375 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    width: 100%;
+    overflow: hidden;
+    background-color:white;
+}
+.main .header{
+    width: 100%;
+    height: 250px;
+}
+.header .logo{
+    width: 100%;
+    height: 170px;
+    background-color: black;
+}
+.logo .picture1{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.picture1 a{
+    text-decoration: none;
+}
+.picture1 a img{
+    width:120px;
+    height:120px;
+    margin-top: 20px;
+}
+.logo .picture2{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.picture2 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-decoration: none ;
+}
+.picture2 a img {
+    width:80%;
+    height: 80%;
+}
+.header .menu{
+    height:80px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.menu ul li{
+    padding:18px 7px;
+    float:left;
+}
+.menu ul li a{
+    padding: 25px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family:Angkor;
+    color:white;
+}
+.menu ul li:hover{
+    background-color: brown;
+}
+.main .contents{
+    width:80%;
+    overflow: hidden;
+    margin: auto;
+}
+.main .contents .kbal{
+    width: 100%;
+    height: 700px;
+    margin-top: 12px;
+}
+.kbal .left{
+    width:69%;
+    height: 100%;
+    background-color:black;
+    float: left;
+}
+.left .a1{
+    width: 60%;
+    height: 50%;
+    float: left;
+    background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/Sothearith(1)/fold16/6576a93650d2e_1702275360_large.jpg');
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.a1 .home{
+    width:150px;
+    height: 12%;
+    margin-top: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 70% 0);  
+}
+.home h1{
+    font-size: 20px;
+    font-family: Moul;
+    color:white;
+}
+.a1 .captions{
+    width: 100%;
+    height: 72%;
+}
+.a1 .captions h2{
+    font-size: 20px;
+    font-family: Content;
+    color:white;
+    padding:20px;
+    display: block;
+    transform: translateY(150px);
+    transition: 0.5s;
+}
+.a1 .captions h2 span{
+    font-size: 15px;
+    font-family: Content;
+    color:white;
+    display: none;
+}
+.a1 .captions h2:hover{
+    transform: translateY(97px);
+    color:red;
+}
+.a1 .captions h2:hover span{
+    font-size: 15px;
+    display: block;
+}
+.a1 .date{
+    width: 100%;
+    height: 10%;
+}
+.date span{
+    color:white;
+    font-family: Content;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.left .a2{
+    width: 39%;
+    height: 50%;
+    float: left;
+    background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/sabay-news/Ent-Int/Others/Other-70/652e3b8c1b52e_1697528700_large.png');
+    background-size: cover;
+    background-position: center;
+    margin-left: 1%;
+}
+.a2 .home{
+    width:150px;
+    height: 12%;
+    margin-top: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 70% 0);  
+}
+.a2 .captions{
+    width: 100%;
+    height: 72%;
+}
+.a2 .captions h2{
+    font-size: 20px;
+    font-family: Content;
+    color:white;
+    padding:20px;
+    display: block;
+    transform: translateY(130px);
+    transition: 0.5s;
+}
+.a2 .captions h2 span{
+    font-size: 15px;
+    font-family: Content;
+    color:white;
+    display: none;
+}
+.a2 .captions h2:hover{
+    transform: translateY(45px);
+    color:red;
+}
+.a2 .captions h2:hover span{
+    font-size: 15px;
+    display: block;
+}
+.a2 .date{
+    width: 100%;
+    height: 10%;
+}
+.left .a3{
+    width: 50%;
+    height: 49%;
+    float: left;
+    background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/Samphy-2023/December/Week-(26)/657810a688767_1702367340_large.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-top: 1%;
+}
+.a3 .home{
+    width:200px;
+    height: 12%;
+    margin-top: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 70% 0);  
+}
+.a3 .captions{
+    width: 100%;
+    height: 72%;
+}
+.a3 .captions h2{
+    font-size: 20px;
+    font-family: Content;
+    color:white;
+    padding:20px;
+    display: block;
+    transform: translateY(165px);
+    transition: 0.5s;
+}
+.a3 .captions h2 span{
+    font-size: 15px;
+    font-family: Content;
+    color:white;
+    display: none;
+}
+.a3 .captions h2:hover{
+    transform: translateY(25px);
+    color:red;
+}
+.a3 .captions h2:hover span{
+    font-size: 15px;
+    display: block;
+}
+.a3 .date{
+    width: 100%;
+    height: 10%;
+}
+.left .a4{
+    width: 49%;
+    height: 49%;
+    float: left;
+    background-image: url('https://cdn.sabay.com/cdn/media.sabay.com/media/Samphy-2023/December/Week-(26)/6577d329f21ab_1702351620_large.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.a4 .home{
+    width:250px;
+    height: 12%;
+    margin-top: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 70% 0);  
+}
+.a4 .captions{
+    width: 100%;
+    height: 72%;
+}
+.a4 .captions h2{
+    font-size: 20px;
+    font-family: Content;
+    color:white;
+    padding:20px;
+    display: block;
+    transform: translateY(130px);
+    transition: 0.5s;
+}
+.a4 .captions h2 span{
+    font-size: 15px;
+    font-family: Content;
+    color:white;
+    display: none;
+}
+.a4 .captions h2:hover{
+    transform: translateY(45px);
+    color:red;
+}
+.a4 .captions h2:hover span{
+    font-size: 15px;
+    display: block;
+}
+.a4 .date{
+    width: 100%;
+    height: 10%;
+}
+.kbal .right{
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-left:1%;
+}
+.right .b1{
+    width: 100%;
+    height:50%;
+    margin-bottom:2%
+}
+.right .b2{
+    width: 100%;
+    height: 50%;
+    background-color: blueviolet;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.main .contents .klun{
+    width: 98%;
+    height: 800px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    float: left;
+    box-shadow:10px 10px 10px 10px black;
+    
+}
+.contents .klun .video{
+    width: 100%;
+    height: 10%;
+    background-color:white;
+    border-bottom: 5px solid red;
+}
+.video .v{
+    width:200px;
+    height:100%;
+    display: flex;
+    align-items: center;
+    background-color:red;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 70% 0);  
+}
+.v h1{
+    color:white;
+    font-size: 30px;
+    font-family:Moul;
+    margin-left: 20px;
+}
+.v .fa-solid{
+    color:white;
+    font-weight: bold;
+    margin-left: 5px;
+    font-size: 30px;
+}
+.klun .box{
+    width: 100%;
+    height: 90%;
+    padding: 15px 20px;
+    box-sizing: border-box;
+}
+.box .box1{
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+}

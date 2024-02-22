@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header-container{
+    width: 100%;
+    height: 150px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-container .logo{
+    width: 30%;
+    height: 80%;
+    /* background: red; */
+    float: left;
+}
+.logo img{
+    width: 100%;
+    height: 80%;
+    object-fit: contain;
+}
+.header-container .ads{
+    width: 70%;
+    height: 80%;
+    /* background: blue; */
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-container{
+    width: 100%;
+    height: 63px;
+    background: red;
+}
+.menu{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    /* background: thistle; */
+}
+.menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    opacity: 0.6;
+}
+.menu ul li a:hover{
+    opacity: 1;
+}
+.container{
+    max-width: 1170px;
+    /* background-color: red; */
+    margin: auto;
+    bottom: 0;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style-type: none;
+}
+.footer{
+    background: black;
+    padding: 70px 0;
+}
+.footer-col{
+    width: 25%;
+    padding:0 15px;
+}
+ .footer-col h4{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    font-weight: bold;
+    position: relative;
+ }
+ .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: rgb(249, 44, 12);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+ }
+ .footer-col ul li{
+    margin-bottom: 10px;
+ }
+.footer-col ul li a{
+    font-size: 20px;
+    /* text-transform: capitalize; */
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    display: block;
+    transition: 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: red;
+}
+.footer-col .fa-brands{
+    float: left;
+    padding: 10px;
+    font-size: 25px;
+    /* margin-left: 10px; */
+    color: white;
+    background: rgb(15, 14, 14);
+    border-radius: 50%;
+}
+.footer-col .fa-brands:hover{
+    background: rgb(152, 90, 90);
+}
+
